@@ -8,13 +8,13 @@ print("Hello " + full_name)
 age = 21 # this is an int data type 
 age = age + 1
 print(type(age))
-print("Your age is " + str(age)) # you cannot concatenate string with an int, the int would have to be chnaged to an int
+print("Your age is " + str(age)) # you cannot concatenate string with an int, the int would have to be changed to a string
 
 height = 250.5 # this is a float 
 print(type(height))
-print("Your height is: " +str(height))
+print("Your height is: " + str(height))
 
 human = True # this is a boolean
 print(human)
 print(type(human))
-print("ARe you a human? " + str(human))
+print("Are you a human? " + str(human))
